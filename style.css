@@ -9,7 +9,7 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 15px;
-    height: 80vh;
+    height: 75vh;
     width: 70vw;
     grid-column: 2/3;
 }
