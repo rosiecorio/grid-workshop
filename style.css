@@ -1,10 +1,17 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    gap: 20px;
+}
+
 .gridcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 15px;
     height: 80vh;
-    width: 100vw;
+    width: 70vw;
+    grid-column: 2/3;
 }
 
 .box {
@@ -16,5 +23,12 @@
 img {
     width: auto;
     height: 170px;
-    grid-row: 2/2;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
